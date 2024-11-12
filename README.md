@@ -48,5 +48,11 @@ You can open the Settings panel from the App menu. <br>
 Here is also where you can temporarily enable, disable, as well as terminate the app.
 ![](./ClipboardChat/Assets.xcassets/ReadmeAssets/appMenuBar.imageset/appMenuBar.png)
 
+## Usage
+Two use this app and ask ChatGPT to perform task, two steps.
+
+1. Add the items that you want the ChatGPT to perform task on, either text or images, to the clipboard by using Command+C for regular copy, Shift+Control+Command+3, or Shift+Control+Command+4 for screenshots.
+2. Click on one of the tasks, either from the menu under the Pikachu icon, or above the text field for one-time prompt, or enter your custom prompt in the text field and choose send.
+
 -------
 For further detail, please refer to my blog: [SwiftUI/MacOS: A Clipboard AI Chat](https://medium.com/@itsuki.enjoy/swiftui-macos-a-clipboard-ai-chat-b7ee8c895fb0).
