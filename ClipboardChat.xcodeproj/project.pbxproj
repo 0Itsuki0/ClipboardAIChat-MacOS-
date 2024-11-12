@@ -6,13 +6,33 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		98AB6E512CE33AAA00B29599 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 98AB6E472CE33AAA00B29599 /* README.md */; };
+		98AB6E522CE33AAA00B29599 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 98AB6E462CE33AAA00B29599 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		98AB6E462CE33AAA00B29599 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		98AB6E472CE33AAA00B29599 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		98D423E02CE3363700B0B968 /* ClipboardChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClipboardChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		98AB6D032CE3371C00B29599 /* Exceptions for "ClipboardChat" folder in "ClipboardChat" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 98D423DF2CE3363700B0B968 /* ClipboardChat */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		98D423E22CE3363700B0B968 /* ClipboardChat */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				98AB6D032CE3371C00B29599 /* Exceptions for "ClipboardChat" folder in "ClipboardChat" target */,
+			);
 			path = ClipboardChat;
 			sourceTree = "<group>";
 		};
@@ -32,6 +52,8 @@
 		98D423D72CE3363700B0B968 = {
 			isa = PBXGroup;
 			children = (
+				98AB6E462CE33AAA00B29599 /* .gitignore */,
+				98AB6E472CE33AAA00B29599 /* README.md */,
 				98D423E22CE3363700B0B968 /* ClipboardChat */,
 				98D423E12CE3363700B0B968 /* Products */,
 			);
@@ -109,6 +131,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98AB6E512CE33AAA00B29599 /* README.md in Resources */,
+				98AB6E522CE33AAA00B29599 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +279,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ClipboardChat/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClipboardChat/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -280,7 +307,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ClipboardChat/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClipboardChat/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
